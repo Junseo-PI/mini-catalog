@@ -1,0 +1,1737 @@
+[
+  {
+    "table_name": "daily_metabolism",
+    "n_rows": 9826,
+    "n_cols": 5,
+    "columns": [
+      {
+        "name": "lakeName",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 63,
+        "samples": [
+          "Acton",
+          "Almberga",
+          "Annie"
+        ]
+      },
+      {
+        "name": "date",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 3539,
+        "samples": [
+          "2010-04-23",
+          "2010-04-24",
+          "2010-04-25"
+        ]
+      },
+      {
+        "name": "zMix_m",
+        "dtype": "float64",
+        "null_ratio": 0.068,
+        "n_unique": 1033,
+        "samples": [
+          "3.3506527864225",
+          "4.07239799698699",
+          "4.92190463701629"
+        ]
+      },
+      {
+        "name": "GPP_mgO2L",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 9826,
+        "samples": [
+          "6.70575976590977e-07",
+          "3.66293169554698e-06",
+          "1.48637513823434"
+        ]
+      },
+      {
+        "name": "ER_mgO2L",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 9825,
+        "samples": [
+          "5.04869934223601",
+          "1.4745886258474",
+          "0.0014869118444633"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "fish_sonar_whole_lake",
+    "n_rows": 215,
+    "n_cols": 14,
+    "columns": [
+      {
+        "name": "lakeid",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 4,
+        "samples": [
+          "ME",
+          "SP",
+          "CR"
+        ]
+      },
+      {
+        "name": "year4",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 26,
+        "samples": [
+          "2009",
+          "2002",
+          "2001"
+        ]
+      },
+      {
+        "name": "sampledate",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 76,
+        "samples": [
+          "2009-08-24",
+          "2009-08-19",
+          "2009-08-20"
+        ]
+      },
+      {
+        "name": "mid_sample_time",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 83,
+        "samples": [
+          "2225",
+          "2054",
+          "32"
+        ]
+      },
+      {
+        "name": "mid_latitude",
+        "dtype": "float64",
+        "null_ratio": 0.033,
+        "n_unique": 90,
+        "samples": [
+          "43.101697",
+          "46.038444",
+          "46.002667"
+        ]
+      },
+      {
+        "name": "mid_longitude",
+        "dtype": "float64",
+        "null_ratio": 0.033,
+        "n_unique": 91,
+        "samples": [
+          "-89.453949",
+          "-89.666252",
+          "-89.614"
+        ]
+      },
+      {
+        "name": "sv_mean",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 95,
+        "samples": [
+          "-71.948156",
+          "-57.88865",
+          "-58.4579"
+        ]
+      },
+      {
+        "name": "nasc",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 95,
+        "samples": [
+          "46.803499",
+          "902.8832",
+          "872.572441"
+        ]
+      },
+      {
+        "name": "mean_height",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 89,
+        "samples": [
+          "17.01",
+          "12.88",
+          "14.19"
+        ]
+      },
+      {
+        "name": "mean_depth",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 85,
+        "samples": [
+          "10.73",
+          "8.52",
+          "8.32"
+        ]
+      },
+      {
+        "name": "number_pings",
+        "dtype": "float64",
+        "null_ratio": 0.023,
+        "n_unique": 93,
+        "samples": [
+          "14972.0",
+          "4941.0",
+          "4309.0"
+        ]
+      },
+      {
+        "name": "species",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 17,
+        "samples": [
+          "YELLOWPERCH",
+          "WHITEBASS",
+          "FRESHWATERDRUM"
+        ]
+      },
+      {
+        "name": "species_ts",
+        "dtype": "float64",
+        "null_ratio": 0.005,
+        "n_unique": 154,
+        "samples": [
+          "-38.7",
+          "-35.7",
+          "-36.1"
+        ]
+      },
+      {
+        "name": "density",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 210,
+        "samples": [
+          "293.629243",
+          "10736.61711",
+          "1442.613238"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "lake_descriptions",
+    "n_rows": 58,
+    "n_cols": 12,
+    "columns": [
+      {
+        "name": "lakeName",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "Acton",
+          "Almberga",
+          "Annie"
+        ]
+      },
+      {
+        "name": "lat_dd",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 57,
+        "samples": [
+          "39.571318",
+          "68.33179",
+          "27.207"
+        ]
+      },
+      {
+        "name": "long_dd",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "-84.746904",
+          "19.15339",
+          "-81.351"
+        ]
+      },
+      {
+        "name": "elev_m",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 56,
+        "samples": [
+          "263.0",
+          "380.0",
+          "3.7"
+        ]
+      },
+      {
+        "name": "max_depth_m",
+        "dtype": "float64",
+        "null_ratio": 0.069,
+        "n_unique": 44,
+        "samples": [
+          "8.0",
+          "6.0",
+          "20.7"
+        ]
+      },
+      {
+        "name": "mean_depth_m",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 51,
+        "samples": [
+          "3.9",
+          "3.0",
+          "9.1"
+        ]
+      },
+      {
+        "name": "HRT_years",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 42,
+        "samples": [
+          "0.2",
+          "0.8",
+          "2.0"
+        ]
+      },
+      {
+        "name": "SA_ha",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 54,
+        "samples": [
+          "250.0",
+          "5.8",
+          "36.5"
+        ]
+      },
+      {
+        "name": "volume_m3",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "9280655.0",
+          "185000.0",
+          "7103606.0"
+        ]
+      },
+      {
+        "name": "DO_sensor_depth_m",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 10,
+        "samples": [
+          "1.5",
+          "0.5",
+          "1.0"
+        ]
+      },
+      {
+        "name": "wind_height_m",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 10,
+        "samples": [
+          "5.0",
+          "2.16",
+          "10.0"
+        ]
+      },
+      {
+        "name": "watershed_area_km2",
+        "dtype": "float64",
+        "null_ratio": 0.103,
+        "n_unique": 50,
+        "samples": [
+          "257.0",
+          "11.0",
+          "2.370391"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "modeled_data",
+    "n_rows": 58,
+    "n_cols": 9,
+    "columns": [
+      {
+        "name": "lakeName",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "Acton",
+          "Almberga",
+          "Annie"
+        ]
+      },
+      {
+        "name": "Pin",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "118.883298964277",
+          "9.2730934815063",
+          "7.68821538231886"
+        ]
+      },
+      {
+        "name": "DOCin",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "4.84709664437463",
+          "5.66156317173081",
+          "10.1640197125823"
+        ]
+      },
+      {
+        "name": "zMixHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 56,
+        "samples": [
+          "3.9",
+          "3.0",
+          "3.4267536513734"
+        ]
+      },
+      {
+        "name": "TPHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "97.5900884082391",
+          "5.00043902566617",
+          "4.30005313071777"
+        ]
+      },
+      {
+        "name": "CHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "4.4637238842306",
+          "4.21389846263347",
+          "7.68012272338312"
+        ]
+      },
+      {
+        "name": "GPPHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "3400.68139115813",
+          "125.866211434242",
+          "121.942238212624"
+        ]
+      },
+      {
+        "name": "AHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "2009.73291301171",
+          "99.638705166285",
+          "84.462028501773"
+        ]
+      },
+      {
+        "name": "PHat",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 58,
+        "samples": [
+          "0.585444096752177",
+          "0.191134718742928",
+          "0.223288014519746"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "nwlr_survey1",
+    "n_rows": 1554,
+    "n_cols": 80,
+    "columns": [
+      {
+        "name": "lake",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 204,
+        "samples": [
+          "9",
+          "Alder Lake",
+          "Aldridge Lake"
+        ]
+      },
+      {
+        "name": "year",
+        "dtype": "float64",
+        "null_ratio": 0.017,
+        "n_unique": 66,
+        "samples": [
+          "9.0",
+          "1998.0",
+          "1963.0"
+        ]
+      },
+      {
+        "name": "join_own",
+        "dtype": "float64",
+        "null_ratio": 0.017,
+        "n_unique": 3,
+        "samples": [
+          "9.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "lau_boat",
+        "dtype": "float64",
+        "null_ratio": 0.019,
+        "n_unique": 9,
+        "samples": [
+          "9.0",
+          "4.0",
+          "5.0"
+        ]
+      },
+      {
+        "name": "other_lau_boat",
+        "dtype": "str",
+        "null_ratio": 0.943,
+        "n_unique": 87,
+        "samples": [
+          "public launch on another lake in the chain",
+          "Motor boats are not allowed on Anderson Lake; is o",
+          "If your definition of a motorboat is a twelve or f"
+        ]
+      },
+      {
+        "name": "zebra",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "rusty",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "smelt",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "milfoil",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "flea",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "loosestr",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "2.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "assoc",
+        "dtype": "float64",
+        "null_ratio": 0.02,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "min_fron",
+        "dtype": "float64",
+        "null_ratio": 0.069,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "102.0",
+          "104.0"
+        ]
+      },
+      {
+        "name": "prim_res",
+        "dtype": "float64",
+        "null_ratio": 0.021,
+        "n_unique": 3,
+        "samples": [
+          "9.0",
+          "1.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "days_no_prim",
+        "dtype": "float64",
+        "null_ratio": 0.022,
+        "n_unique": 85,
+        "samples": [
+          "-99.0",
+          "8.0",
+          "20.0"
+        ]
+      },
+      {
+        "name": "gues_no_prim",
+        "dtype": "float64",
+        "null_ratio": 0.022,
+        "n_unique": 41,
+        "samples": [
+          "-99.0",
+          "8.0",
+          "70.0"
+        ]
+      },
+      {
+        "name": "rent_no_prim",
+        "dtype": "float64",
+        "null_ratio": 0.022,
+        "n_unique": 27,
+        "samples": [
+          "-99.0",
+          "8.0",
+          "70.0"
+        ]
+      },
+      {
+        "name": "fishing",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "4.0",
+          "6.0"
+        ]
+      },
+      {
+        "name": "boating",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "3.0",
+          "6.0"
+        ]
+      },
+      {
+        "name": "wat_ski",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "3.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "can_kay_row",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "sail",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "1.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "jet_ski",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "swim",
+        "dtype": "float64",
+        "null_ratio": 0.026,
+        "n_unique": 7,
+        "samples": [
+          "9.0",
+          "1.0",
+          "6.0"
+        ]
+      },
+      {
+        "name": "ide_size",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 5,
+        "samples": [
+          "9.0",
+          "1.0",
+          "4.0"
+        ]
+      },
+      {
+        "name": "ide_com",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 5,
+        "samples": [
+          "9.0",
+          "4.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "ide_dev",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 5,
+        "samples": [
+          "9.0",
+          "3.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "ide_pub",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 5,
+        "samples": [
+          "9.0",
+          "3.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "bigger",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "smaller",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "qual_fish",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "wat_clar",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "clos_com",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "fur_com",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "less_dev",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "mor_dev",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "road_acc",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "no_pubacc",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "add_pubacc",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "quieter",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "mor_pub",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "less_pub",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "dis_pub_land",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "dev_stric",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "dev_easier",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "weedy",
+        "dtype": "float64",
+        "null_ratio": 0.032,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "Pref_lake",
+        "dtype": "float64",
+        "null_ratio": 0.033,
+        "n_unique": 3,
+        "samples": [
+          "9.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "lake1",
+        "dtype": "str",
+        "null_ratio": 0.71,
+        "n_unique": 124,
+        "samples": [
+          "Hunter Lake",
+          "Jute Lake",
+          "Manitowish Chain"
+        ]
+      },
+      {
+        "name": "lake2",
+        "dtype": "str",
+        "null_ratio": 0.805,
+        "n_unique": 117,
+        "samples": [
+          "Snipe Lake",
+          "Escanaba Lake",
+          "Island Lake"
+        ]
+      },
+      {
+        "name": "lake3",
+        "dtype": "str",
+        "null_ratio": 0.875,
+        "n_unique": 85,
+        "samples": [
+          "Perch Lake",
+          "Big Gibson Lake",
+          "Little Star Lake"
+        ]
+      },
+      {
+        "name": "nolak1",
+        "dtype": "str",
+        "null_ratio": 0.498,
+        "n_unique": 164,
+        "samples": [
+          "Boot Lake",
+          "High Lake",
+          "Eagle River Chain"
+        ]
+      },
+      {
+        "name": "nolak2",
+        "dtype": "str",
+        "null_ratio": 0.663,
+        "n_unique": 154,
+        "samples": [
+          "Rice Lake",
+          "White Sand Lake",
+          "Little Saint Germain Lake"
+        ]
+      },
+      {
+        "name": "nolak3",
+        "dtype": "str",
+        "null_ratio": 0.79,
+        "n_unique": 133,
+        "samples": [
+          "Boulder Lake",
+          "Big Saint Germain Lake",
+          "Manitowish Lake"
+        ]
+      },
+      {
+        "name": "Vnew_res",
+        "dtype": "float64",
+        "null_ratio": 0.036,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "65.0",
+          "15.0"
+        ]
+      },
+      {
+        "name": "XVnew_res",
+        "dtype": "float64",
+        "null_ratio": 0.036,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "5.0",
+          "15.0"
+        ]
+      },
+      {
+        "name": "subdiv",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "5.0",
+          "95.0"
+        ]
+      },
+      {
+        "name": "sell_5",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "15.0",
+          "5.0"
+        ]
+      },
+      {
+        "name": "sell_10",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 11,
+        "samples": [
+          "9.0",
+          "15.0",
+          "75.0"
+        ]
+      },
+      {
+        "name": "inh_pur",
+        "dtype": "float64",
+        "null_ratio": 0.017,
+        "n_unique": 3,
+        "samples": [
+          "9.0",
+          "1.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "time_mar",
+        "dtype": "float64",
+        "null_ratio": 0.037,
+        "n_unique": 8,
+        "samples": [
+          "9.0",
+          "1.0",
+          "5.0"
+        ]
+      },
+      {
+        "name": "res_laksho",
+        "dtype": "float64",
+        "null_ratio": 0.037,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "Vilas",
+        "dtype": "float64",
+        "null_ratio": 0.037,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "3.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "regone",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "regtwo",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "regthre",
+        "dtype": "float64",
+        "null_ratio": 0.048,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "regfour",
+        "dtype": "float64",
+        "null_ratio": 0.048,
+        "n_unique": 2,
+        "samples": [
+          "8.0",
+          "4.0"
+        ]
+      },
+      {
+        "name": "exper",
+        "dtype": "float64",
+        "null_ratio": 0.038,
+        "n_unique": 4,
+        "samples": [
+          "9.0",
+          "1.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "know_wq",
+        "dtype": "float64",
+        "null_ratio": 0.039,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "3.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "know_fq",
+        "dtype": "float64",
+        "null_ratio": 0.039,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "4.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "dev_res",
+        "dtype": "float64",
+        "null_ratio": 0.039,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "3.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "gender",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 3,
+        "samples": [
+          "9.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "age",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 67,
+        "samples": [
+          "9.0",
+          "54.0",
+          "44.0"
+        ]
+      },
+      {
+        "name": "mem_hh",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 21,
+        "samples": [
+          "-99.0",
+          "5.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "children",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 14,
+        "samples": [
+          "-99.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "educat",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 6,
+        "samples": [
+          "9.0",
+          "2.0",
+          "4.0"
+        ]
+      },
+      {
+        "name": "inc",
+        "dtype": "float64",
+        "null_ratio": 0.043,
+        "n_unique": 15,
+        "samples": [
+          "9.0",
+          "110.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "value",
+        "dtype": "float64",
+        "null_ratio": 0.068,
+        "n_unique": 171,
+        "samples": [
+          "9.0",
+          "350000.0",
+          "129900.0"
+        ]
+      },
+      {
+        "name": "survey_num",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 1552,
+        "samples": [
+          "33",
+          "75",
+          "82"
+        ]
+      },
+      {
+        "name": "comments",
+        "dtype": "str",
+        "null_ratio": 0.663,
+        "n_unique": 521,
+        "samples": [
+          "Wish there were lakes that promoted long distance ",
+          "I feel that by being an out of state owner of a ye",
+          "There should be no Indian spearing on any lake exc"
+        ]
+      },
+      {
+        "name": "survey_fm",
+        "dtype": "float64",
+        "null_ratio": 0.001,
+        "n_unique": 2,
+        "samples": [
+          "1.0",
+          "0.0"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "onstreet_ada_parking_spaces",
+    "n_rows": 49,
+    "n_cols": 24,
+    "columns": [
+      {
+        "name": "X",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "829148.272377893",
+          "822426.789757892",
+          "821799.974410474"
+        ]
+      },
+      {
+        "name": "Y",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "489530.013241142",
+          "482552.173850387",
+          "482209.948156893"
+        ]
+      },
+      {
+        "name": "OBJECTID",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "Time_Limit_Hr",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 1,
+        "samples": [
+          "3"
+        ]
+      },
+      {
+        "name": "Time_Limit_Min",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 1,
+        "samples": [
+          "180"
+        ]
+      },
+      {
+        "name": "Enforced",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 5,
+        "samples": [
+          "24 Hours",
+          "8a-6p M-F",
+          "7:30a-1p Su Only"
+        ]
+      },
+      {
+        "name": "Block_Nbr",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 14,
+        "samples": [
+          "2000",
+          "100",
+          "200"
+        ]
+      },
+      {
+        "name": "St_Pre_Dir",
+        "dtype": "str",
+        "null_ratio": 0.449,
+        "n_unique": 4,
+        "samples": [
+          "E",
+          "W",
+          "S"
+        ]
+      },
+      {
+        "name": "St_Name",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 27,
+        "samples": [
+          "Winnebago",
+          "Wilson",
+          "Martin Luther King Jr"
+        ]
+      },
+      {
+        "name": "St_Name_Suf",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 5,
+        "samples": [
+          "St",
+          "Blvd",
+          "Ave"
+        ]
+      },
+      {
+        "name": "Side_Of_St",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 4,
+        "samples": [
+          "E",
+          "N",
+          "W"
+        ]
+      },
+      {
+        "name": "Symbol_Rotation",
+        "dtype": "float64",
+        "null_ratio": 0.122,
+        "n_unique": 11,
+        "samples": [
+          "29.0",
+          "45.0",
+          "135.0"
+        ]
+      },
+      {
+        "name": "Status",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 1,
+        "samples": [
+          "In service"
+        ]
+      },
+      {
+        "name": "SpaceLength_Ft",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 24,
+        "samples": [
+          "19.0",
+          "18.0",
+          "27.0"
+        ]
+      },
+      {
+        "name": "Restriction",
+        "dtype": "str",
+        "null_ratio": 0.959,
+        "n_unique": 1,
+        "samples": [
+          "No Parking M-F"
+        ]
+      },
+      {
+        "name": "CWasset_ID",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "DV-7172",
+          "DV-6074",
+          "DV-1319"
+        ]
+      },
+      {
+        "name": "Collect_Route",
+        "dtype": "str",
+        "null_ratio": 0.306,
+        "n_unique": 12,
+        "samples": [
+          "Schenks",
+          "Wilson Butler Area",
+          "MMB Area"
+        ]
+      },
+      {
+        "name": "DateRemoved",
+        "dtype": "float64",
+        "null_ratio": 1.0,
+        "n_unique": 0,
+        "samples": []
+      },
+      {
+        "name": "SpaceID",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "dsvt-1",
+          "dsvt-2",
+          "dsvt-3"
+        ]
+      },
+      {
+        "name": "SpaceName",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 49,
+        "samples": [
+          "7172",
+          "6074",
+          "1319"
+        ]
+      },
+      {
+        "name": "created_user",
+        "dtype": "str",
+        "null_ratio": 0.959,
+        "n_unique": 1,
+        "samples": [
+          "TNKGJ"
+        ]
+      },
+      {
+        "name": "created_date",
+        "dtype": "str",
+        "null_ratio": 0.959,
+        "n_unique": 2,
+        "samples": [
+          "2023/02/28 16:30:17+00",
+          "2023/03/09 14:39:45+00"
+        ]
+      },
+      {
+        "name": "last_edited_user",
+        "dtype": "str",
+        "null_ratio": 0.939,
+        "n_unique": 1,
+        "samples": [
+          "TNKGJ"
+        ]
+      },
+      {
+        "name": "last_edited_date",
+        "dtype": "str",
+        "null_ratio": 0.939,
+        "n_unique": 3,
+        "samples": [
+          "2023/03/20 18:17:58+00",
+          "2023/02/28 16:41:21+00",
+          "2023/03/09 16:52:30+00"
+        ]
+      }
+    ]
+  },
+  {
+    "table_name": "urban_forestry_street_trees",
+    "n_rows": 111662,
+    "n_cols": 13,
+    "columns": [
+      {
+        "name": "X",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 107699,
+        "samples": [
+          "820786.500059471",
+          "809967.713626221",
+          "809916.816090226"
+        ]
+      },
+      {
+        "name": "Y",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 108256,
+        "samples": [
+          "476162.436629891",
+          "481007.792752817",
+          "481329.660547391"
+        ]
+      },
+      {
+        "name": "OBJECTID",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 111662,
+        "samples": [
+          "794615",
+          "794616",
+          "794617"
+        ]
+      },
+      {
+        "name": "INSPECT_DT",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 492,
+        "samples": [
+          "2024/03/20 06:00:00+00",
+          "2024/04/04 06:00:00+00",
+          "2025/08/25 06:00:00+00"
+        ]
+      },
+      {
+        "name": "INV_DATE",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 1098,
+        "samples": [
+          "2022/03/28 06:00:00+00",
+          "2007/08/28 06:00:00+00",
+          "2007/08/29 06:00:00+00"
+        ]
+      },
+      {
+        "name": "SPP_COM",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 235,
+        "samples": [
+          "Honeylocust 'Skyline'",
+          "Norway Maple",
+          "American Basswood"
+        ]
+      },
+      {
+        "name": "SPP_BOT",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 235,
+        "samples": [
+          "Gleditsia triacanthos 'Skyline'",
+          "Acer platanoides",
+          "Tilia americana"
+        ]
+      },
+      {
+        "name": "GSSIZE",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 15,
+        "samples": [
+          "7'-8'",
+          "8'+",
+          "5'-6'"
+        ]
+      },
+      {
+        "name": "DIAMETER",
+        "dtype": "float64",
+        "null_ratio": 0.0,
+        "n_unique": 105,
+        "samples": [
+          "6.0",
+          "25.0",
+          "13.0"
+        ]
+      },
+      {
+        "name": "STATUS",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 3,
+        "samples": [
+          "Active",
+          "Not Active",
+          " "
+        ]
+      },
+      {
+        "name": "TREEGUARD",
+        "dtype": "str",
+        "null_ratio": 0.0,
+        "n_unique": 2,
+        "samples": [
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "name": "GRATE_SPP",
+        "dtype": "str",
+        "null_ratio": 0.99,
+        "n_unique": 7,
+        "samples": [
+          "4x6",
+          "5x5",
+          "4x8"
+        ]
+      },
+      {
+        "name": "site_id",
+        "dtype": "int64",
+        "null_ratio": 0.0,
+        "n_unique": 111662,
+        "samples": [
+          "403144",
+          "403257",
+          "403258"
+        ]
+      }
+    ]
+  }
+]
