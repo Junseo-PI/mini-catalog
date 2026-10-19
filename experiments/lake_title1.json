@@ -1,0 +1,61 @@
+{
+  "table_name": "lake_descriptions",
+  "description": "This table contains descriptions of 58 lakes, including their geographical coordinates, elevation, depth measurements, hydraulic residence time, surface area, volume, and other related metrics.",
+  "tags": [
+    "lakes",
+    "geography",
+    "ecology",
+    "environment",
+    "data"
+  ],
+  "columns": [
+    {
+      "name": "lakeName",
+      "expanded": "Lake Name"
+    },
+    {
+      "name": "lat_dd",
+      "expanded": "Latitude (Decimal Degrees)"
+    },
+    {
+      "name": "long_dd",
+      "expanded": "Longitude (Decimal Degrees)"
+    },
+    {
+      "name": "elev_m",
+      "expanded": "Elevation (Meters)"
+    },
+    {
+      "name": "max_depth_m",
+      "expanded": "Maximum Depth (Meters)"
+    },
+    {
+      "name": "mean_depth_m",
+      "expanded": "Mean Depth (Meters)"
+    },
+    {
+      "name": "HRT_years",
+      "expanded": "Hydraulic Residence Time (Years)"
+    },
+    {
+      "name": "SA_ha",
+      "expanded": "Surface Area (Hectares)"
+    },
+    {
+      "name": "volume_m3",
+      "expanded": "Volume (Cubic Meters)"
+    },
+    {
+      "name": "DO_sensor_depth_m",
+      "expanded": "Dissolved Oxygen Sensor Depth (Meters)"
+    },
+    {
+      "name": "wind_height_m",
+      "expanded": "Wind Height (Meters)"
+    },
+    {
+      "name": "watershed_area_km2",
+      "expanded": "Watershed Area (Square Kilometers)"
+    }
+  ]
+}
