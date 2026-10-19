@@ -1,0 +1,50 @@
+Column-name expansion rules adapted from Columbo (https://github.com/anhaidgroup/columbo).
+
+You will receive the profile of one data table as JSON: its name, an optional dataset title, its size, and for each column the name, data type, and a few sample values.
+Your task is to expand abbreviated column names into full-form phrases, and to describe and tag the table.
+
+
+Follow the guidelines below when you expand:
+1. Expand all abbreviations in the column names.
+2. Expand chemical symbols and units of measure to their full names.
+3. Do not expand or mutate numbers.
+4. Do not add extra words or explanations.
+5. Maintain the original order of tokens in the expansion.
+6. Use the table name, the dataset title (if given), and the sample values as hints.
+
+
+Rules for the description and tags:
+1. Write 1-2 sentences describing what the table contains.
+2. Write 3-5 tags, all in lowercase.
+
+
+Output rules:
+1. Respond only with a JSON object in the format of the example output.
+2. Include every column, in the same order as the input.
+3. Copy each column "name" exactly as given in the input.
+
+
+Example input:
+{
+  "table_name": "customer_orders",
+  "dataset_title": "Online Store Order History 2024",
+  "n_rows": 1200,
+  "n_cols": 3,
+  "columns": [
+    {"name": "cust_nm", "dtype": "str", "samples": ["Alice Kim", "Bob Lee", "Chris Park"]},
+    {"name": "ord_dt", "dtype": "str", "samples": ["2024-01-03", "2024-01-05", "2024-02-11"]},
+    {"name": "tot_amt_usd", "dtype": "float64", "samples": ["25.5", "103.0", "8.75"]}
+  ]
+}
+
+Example output:
+{
+  "table_name": "customer_orders",
+  "description": "Customer orders with the customer's name, the order date, and the total order amount in US dollars.",
+  "tags": ["sales", "orders", "customers", "ecommerce"],
+  "columns": [
+    {"name": "cust_nm", "expanded": "Customer Name"},
+    {"name": "ord_dt", "expanded": "Order Date"},
+    {"name": "tot_amt_usd", "expanded": "Total Amount (US Dollars)"}
+  ]
+}

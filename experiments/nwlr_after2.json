@@ -1,0 +1,333 @@
+{
+  "table_name": "nwlr_survey1",
+  "description": "This table contains data from the Northern Wisconsin Lake Resident Survey 2005, including information about lake preferences, activities, invasive species, and demographic details of the respondents.",
+  "tags": [
+    "survey",
+    "lakes",
+    "wisconsin",
+    "residents",
+    "environment"
+  ],
+  "columns": [
+    {
+      "name": "lake",
+      "expanded": "Lake"
+    },
+    {
+      "name": "year",
+      "expanded": "Year"
+    },
+    {
+      "name": "join_own",
+      "expanded": "Join Ownership"
+    },
+    {
+      "name": "lau_boat",
+      "expanded": "Launch Boat"
+    },
+    {
+      "name": "other_lau_boat",
+      "expanded": "Other Launch Boat"
+    },
+    {
+      "name": "zebra",
+      "expanded": "Zebra Mussels"
+    },
+    {
+      "name": "rusty",
+      "expanded": "Rusty Crayfish"
+    },
+    {
+      "name": "smelt",
+      "expanded": "Smelt"
+    },
+    {
+      "name": "milfoil",
+      "expanded": "Milfoil"
+    },
+    {
+      "name": "flea",
+      "expanded": "Spiny Water Flea"
+    },
+    {
+      "name": "loosestr",
+      "expanded": "Purple Loosestrife"
+    },
+    {
+      "name": "assoc",
+      "expanded": "Association"
+    },
+    {
+      "name": "min_fron",
+      "expanded": "Minimum Frontage"
+    },
+    {
+      "name": "prim_res",
+      "expanded": "Primary Residence"
+    },
+    {
+      "name": "days_no_prim",
+      "expanded": "Days Not Primary"
+    },
+    {
+      "name": "gues_no_prim",
+      "expanded": "Guests Not Primary"
+    },
+    {
+      "name": "rent_no_prim",
+      "expanded": "Rent Not Primary"
+    },
+    {
+      "name": "fishing",
+      "expanded": "Fishing"
+    },
+    {
+      "name": "boating",
+      "expanded": "Boating"
+    },
+    {
+      "name": "wat_ski",
+      "expanded": "Water Ski"
+    },
+    {
+      "name": "can_kay_row",
+      "expanded": "Canoe Kayak Row"
+    },
+    {
+      "name": "sail",
+      "expanded": "Sailing"
+    },
+    {
+      "name": "jet_ski",
+      "expanded": "Jet Ski"
+    },
+    {
+      "name": "swim",
+      "expanded": "Swimming"
+    },
+    {
+      "name": "ide_size",
+      "expanded": "Ideal Size"
+    },
+    {
+      "name": "ide_com",
+      "expanded": "Ideal Community"
+    },
+    {
+      "name": "ide_dev",
+      "expanded": "Ideal Development"
+    },
+    {
+      "name": "ide_pub",
+      "expanded": "Ideal Public Access"
+    },
+    {
+      "name": "bigger",
+      "expanded": "Bigger"
+    },
+    {
+      "name": "smaller",
+      "expanded": "Smaller"
+    },
+    {
+      "name": "qual_fish",
+      "expanded": "Quality Fishing"
+    },
+    {
+      "name": "wat_clar",
+      "expanded": "Water Clarity"
+    },
+    {
+      "name": "clos_com",
+      "expanded": "Closer Community"
+    },
+    {
+      "name": "fur_com",
+      "expanded": "Further Community"
+    },
+    {
+      "name": "less_dev",
+      "expanded": "Less Development"
+    },
+    {
+      "name": "mor_dev",
+      "expanded": "More Development"
+    },
+    {
+      "name": "road_acc",
+      "expanded": "Road Access"
+    },
+    {
+      "name": "no_pubacc",
+      "expanded": "No Public Access"
+    },
+    {
+      "name": "add_pubacc",
+      "expanded": "Additional Public Access"
+    },
+    {
+      "name": "quieter",
+      "expanded": "Quieter"
+    },
+    {
+      "name": "mor_pub",
+      "expanded": "More Public"
+    },
+    {
+      "name": "less_pub",
+      "expanded": "Less Public"
+    },
+    {
+      "name": "dis_pub_land",
+      "expanded": "Dislike Public Land"
+    },
+    {
+      "name": "dev_stric",
+      "expanded": "Development Stricter"
+    },
+    {
+      "name": "dev_easier",
+      "expanded": "Development Easier"
+    },
+    {
+      "name": "weedy",
+      "expanded": "Weedy"
+    },
+    {
+      "name": "Pref_lake",
+      "expanded": "Preferred Lake"
+    },
+    {
+      "name": "lake1",
+      "expanded": "Lake 1"
+    },
+    {
+      "name": "lake2",
+      "expanded": "Lake 2"
+    },
+    {
+      "name": "lake3",
+      "expanded": "Lake 3"
+    },
+    {
+      "name": "nolak1",
+      "expanded": "No Lake 1"
+    },
+    {
+      "name": "nolak2",
+      "expanded": "No Lake 2"
+    },
+    {
+      "name": "nolak3",
+      "expanded": "No Lake 3"
+    },
+    {
+      "name": "Vnew_res",
+      "expanded": "Very New Residence"
+    },
+    {
+      "name": "XVnew_res",
+      "expanded": "Extremely Very New Residence"
+    },
+    {
+      "name": "subdiv",
+      "expanded": "Subdivision"
+    },
+    {
+      "name": "sell_5",
+      "expanded": "Sell in 5 Years"
+    },
+    {
+      "name": "sell_10",
+      "expanded": "Sell in 10 Years"
+    },
+    {
+      "name": "inh_pur",
+      "expanded": "Inherited Purchase"
+    },
+    {
+      "name": "time_mar",
+      "expanded": "Time Married"
+    },
+    {
+      "name": "res_laksho",
+      "expanded": "Residence Lake Shore"
+    },
+    {
+      "name": "Vilas",
+      "expanded": "Vilas County"
+    },
+    {
+      "name": "regone",
+      "expanded": "Region One"
+    },
+    {
+      "name": "regtwo",
+      "expanded": "Region Two"
+    },
+    {
+      "name": "regthre",
+      "expanded": "Region Three"
+    },
+    {
+      "name": "regfour",
+      "expanded": "Region Four"
+    },
+    {
+      "name": "exper",
+      "expanded": "Experience"
+    },
+    {
+      "name": "know_wq",
+      "expanded": "Knowledge Water Quality"
+    },
+    {
+      "name": "know_fq",
+      "expanded": "Knowledge Fishing Quality"
+    },
+    {
+      "name": "dev_res",
+      "expanded": "Development Residence"
+    },
+    {
+      "name": "gender",
+      "expanded": "Gender"
+    },
+    {
+      "name": "age",
+      "expanded": "Age"
+    },
+    {
+      "name": "mem_hh",
+      "expanded": "Members Household"
+    },
+    {
+      "name": "children",
+      "expanded": "Children"
+    },
+    {
+      "name": "educat",
+      "expanded": "Education"
+    },
+    {
+      "name": "inc",
+      "expanded": "Income"
+    },
+    {
+      "name": "value",
+      "expanded": "Property Value"
+    },
+    {
+      "name": "survey_num",
+      "expanded": "Survey Number"
+    },
+    {
+      "name": "comments",
+      "expanded": "Comments"
+    },
+    {
+      "name": "survey_fm",
+      "expanded": "Survey Form"
+    }
+  ]
+}
