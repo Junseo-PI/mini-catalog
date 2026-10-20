@@ -1,0 +1,50 @@
+table_name,column_name,PREDICTION
+APT022.csv,tmpyear,temperature year
+APT022.csv,jantmean,january temperature mean
+APT022.csv,febtmean,february temperature mean
+APT022.csv,martmean,march temperature mean
+APT022.csv,aprtmean,april temperature mean
+APT022.csv,maytmean,may temperature mean
+APT022.csv,juntmean,june temperature mean
+APT022.csv,jultmean,july temperature mean
+APT022.csv,augtmean,august temperature mean
+APT022.csv,septmean,september temperature mean
+APT022.csv,octtmean,october temperature mean
+APT022.csv,novtmean,november temperature mean
+APT022.csv,dectmean,december temperature mean
+APT022.csv,anntmean,annual temperature mean
+mcmlter-clim-hodm_radn-monthly-20230706.csv,METLOCID,meteorological location identifier
+mcmlter-clim-hodm_radn-monthly-20230706.csv,DATE_TIME,date time
+mcmlter-clim-hodm_radn-monthly-20230706.csv,AVG_LWRADIN,average longwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,STD_LWRADIN,standard deviation longwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MIN_LWRADIN,minimum longwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MAX_LWRADIN,maximum longwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,N_LWRADIN,number longwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,AVG_SWRADIN,average shortwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,STD_SWRADIN,standard deviation shortwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MIN_SWRADIN,minimum shortwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MAX_SWRADIN,maximum shortwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,N_SWRADIN,number of observations shortwave radiation incoming
+mcmlter-clim-hodm_radn-monthly-20230706.csv,AVG_SWRADOUT,average shortwave radiation outgoing
+mcmlter-clim-hodm_radn-monthly-20230706.csv,STD_SWRADOUT,standard deviation shortwave radiation outgoing
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MIN_SWRADOUT,minimum shortwave radiation outgoing
+mcmlter-clim-hodm_radn-monthly-20230706.csv,MAX_SWRADOUT,maximum shortwave radiation outgoing
+mcmlter-clim-hodm_radn-monthly-20230706.csv,N_SWRADOUT,number of observations shortwave radiation outgoing
+mcmlter-clim-hodm_radn-monthly-20230706.csv,N_COMMENTS,number of comments comments
+HODM_ICET_MONTHLY.csv,METLOCID,meteorological location identifier
+HODM_ICET_MONTHLY.csv,DATE_TIME,date time
+HODM_ICET_MONTHLY.csv,AVG_ICET20CM,average ice thickness 20 centimeters
+HODM_ICET_MONTHLY.csv,STDDEV_ICET20CM,standard deviation ice thickness 20 centimeters
+HODM_ICET_MONTHLY.csv,MIN_ICET20CM,minimum ice thickness 20 centimeters
+HODM_ICET_MONTHLY.csv,MAX_ICET20CM,maximum ice thickness 20 centimeters
+HODM_ICET_MONTHLY.csv,N_ICET20CM,number of observations ice thickness 20 centimeters
+HODM_ICET_MONTHLY.csv,AVG_ICET1M,average ice thickness 1 meter
+HODM_ICET_MONTHLY.csv,STDDEV_ICET1M,standard deviation ice thickness 1 meter
+HODM_ICET_MONTHLY.csv,MIN_ICET1M,minimum ice thickness 1 meter
+HODM_ICET_MONTHLY.csv,MAX_ICET1M,maximum ice thickness 1 meter
+HODM_ICET_MONTHLY.csv,N_ICET1M,number of measurements ice thickness 1 meter
+HODM_ICET_MONTHLY.csv,AVG_ICET50CM,average ice thickness 50 centimeters
+HODM_ICET_MONTHLY.csv,STDDEV_ICET50CM,standard deviation ice thickness 50 centimeters
+HODM_ICET_MONTHLY.csv,MIN_ICET50CM,minimum ice thickness 50 centimeters
+HODM_ICET_MONTHLY.csv,MAX_ICET50CM,maximum ice thickness 50 centimeters
+HODM_ICET_MONTHLY.csv,N_ICET50CM,number of measurements ice thickness 50 centimeters

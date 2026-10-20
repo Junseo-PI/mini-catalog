@@ -51,8 +51,8 @@ def build_prompt(profile, title=None):
     for col in profile["columns"]:
         cols.append({
             "name": col["name"],
-            "dtype": col["dtype"],
-            "samples": col["samples"],
+            "dtype": col.get("dtype", "unknown"),
+            "samples": col.get("samples", []),
         })
 
     input_profile = {"table_name": profile["table_name"]}

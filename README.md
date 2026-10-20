@@ -36,6 +36,30 @@ Four queries found nothing from the original names alone (for example, `DOCin` c
 
 **3. The LLM is good at domain vocabulary but not at survey codes.** It correctly expanded `nasc` to "Nautical Area Scattering Coefficient" and `zebra` / `rusty` to "Zebra Mussels" / "Rusty Crayfish". It failed on survey-specific codes: `nolak1` became "No Lake 1" although its values are lake names, and `XVnew_res` became "Extremely Very New Residence".
 
+## Evaluation against Columbo
+
+To measure column-name expansion against ground truth, I compared my one-shot prompt with [Columbo](https://github.com/anhaidgroup/columbo) on Columbo's own EDI benchmark (`EDI_demo`), using Columbo's own scorer (SQuAD-style exact match and F1, with its synonym and stopword lists).
+
+**Setup.** 20 tables drawn at random (seed 42) from `EDI_demo`: tables with 5-40 labeled columns, at most one per data package, excluding the 3 tables I had used for a smoke test. That gives 252 labeled columns, of which 96 are abbreviated (the name differs from the gold label beyond case and punctuation). Both systems see only the table name and column names and use `gpt-4o`. Each system ran twice. The table list, scripts, and all predictions are in [`experiments/columbo_eval/`](experiments/columbo_eval/).
+
+| System | EM | F1 | EM, abbreviated only | F1, abbreviated only | Empty |
+|---|---|---|---|---|---|
+| Columbo, run 1 | 0.909 | 0.952 | 0.771 | 0.881 | 0 |
+| Columbo, run 2 | 0.893 | 0.936 | 0.781 | 0.894 | 6 |
+| My prompt, run 1 | 0.889 | 0.941 | 0.719 | 0.854 | 0 |
+| My prompt, run 2 | 0.889 | 0.941 | 0.719 | 0.854 | 0 |
+
+**What the numbers hide:**
+
+- **Most of Columbo's lead comes from 4-letter codes, mostly plant species,** and its guesses there are mostly wrong. In a plant-cover table with columns like `Len_POBA_cm` and `%ALAX`, Columbo expands the codes; my prompt leaves them as they are. Columbo got 4 of these 14 columns right (`POBA` → "populus balsamifera"); most of the rest are confident but wrong species names (`ALAX` → "alnus incana x rubra", gold "alaxensis"), and the same code `ALTE` became two different species within one run. Exact match scores an unexpanded code and a wrong species name the same (0), but for a catalog user the wrong name is more misleading.
+- **Each system has its own habits.** My prompt adds words despite the "no extra words" rule (`N:P` → "Nitrogen to Phosphorus Ratio") and misread `interp` as "Interpretation". Columbo expanded the logger brand `HOBO` into "specific logger" and `LIG` into "ligand" (gold "lignin").
+- **Both fail when the name alone cannot decide.** `OD1` became "optical density" / "optical depth" (gold "organic layer depth"), and in the smoke test both expanded `ICET` to "ice thickness" (gold "ice temperature"). The table's own description says "Ice Surface Change", so table-level context would not help either; the column definitions or the values would.
+- **Stability.** Columbo's two runs disagree on 20 of the 96 abbreviated columns, and one run left 6 columns empty. My prompt gave identical output both times. (Columbo's expansion step currently samples at temperature 1; my prompt uses 0.)
+- **Cost.** By prompt size, one Columbo run costs roughly four times as much as one run of my prompt (about $0.40 or more vs. $0.10, assuming gpt-4o at $2.50 / $10 per million input / output tokens), because it sends long few-shot examples and asks for step-by-step reasoning.
+- **Gold labels have quirks too.** `corwetwt` is "core wet weight" in the gold data, while both systems say "corrected wet weight"; `pH` is expected as "potential of hydrogen".
+
+**Caveats.** One benchmark, 20 tables, two runs each. Columbo also uses cross-table context (it clusters related tables and reconciles shared abbreviations), which this small sample may not reward. `EDI_demo` has no data values, so the sample values my pipeline normally sends were not available to either system.
+
 ## How it works
 
 ```
@@ -81,7 +105,7 @@ To re-enrich a table (for example after editing `rules.txt`), delete its entry f
 
 - **Small, skewed corpus.** Only 7 tables, 5 of them about lakes. With so few documents, BM25's inverse document frequency is unstable; "lakes" appears in most tables and carries almost no weight.
 - **LLM output varies between runs** even at temperature 0, so descriptions, and therefore search results, can change after re-enrichment. For example, one run described the survey's invasive species and a later run did not, which is why "invasive species" fails above.
-- **No ground-truth evaluation.** I checked expansions by hand against sample values, not against the datasets' official column definitions.
+- **Limited ground-truth evaluation.** Column-name expansion is evaluated against Columbo's EDI benchmark (above), but only on 20 tables. Descriptions, tags, and search quality on my own 7 tables were judged by hand.
 - **Missing-value codes are treated as data.** The survey appears to use `9`, `8`, and `-99` for non-responses (I have not confirmed this against its codebook); profiling counts them as real values.
 - **Keyword search only.** BM25 cannot match synonyms ("wheelchair" vs. "ADA") or tell apart meanings of the same word.
 

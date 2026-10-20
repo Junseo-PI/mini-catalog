@@ -1,0 +1,273 @@
+table_name,column_name,PREDICTION
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Date,date
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Site,site
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Transect,transect
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Observers,observers
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Distance,distance
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Spartina_alterniflora_cover,spartina alterniflora coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Spartina_patens_cover,spartina patens coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Distichlis_spicata_cover,distichlis spicata coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Juncus_gerardi_cover,juncus gerardi coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Phragmites_australis_cover,phragmites australis coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Salicornia_europaea_cover,salicornia europaea coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Atriplex_patula_cover,atriplex patula coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Iva_frutescens_cover,iva frutescens coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Suaeda_linearis_cover,suaeda linearis coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Agrostis_stolonifera_cover,agrostis stolonifera coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Glaux_maritima_cover,glaux maritima coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Solidago_sempervirens_cover,solidago sempervirens coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Spartina_pectinata_cover,spartina pectinata coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Scirpus_robustus_cover,scirpus robustus coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Elymus_virginianus_cover,elymus virginianus coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Panicum_virgatum_cover,panicum virgatum coverage
+LTE-MF-GREENWOOD-CLUBHEAD-VEGQD.csv,Comments,comments
+Field_flux_data.csv,Site,site
+Field_flux_data.csv,Collection Date,collection date
+Field_flux_data.csv,Collection Time,collection time
+Field_flux_data.csv,Latitude,latitude
+Field_flux_data.csv,Longitude,longitude
+Field_flux_data.csv,Water Depth (m),water depth meters
+Field_flux_data.csv,Water Temp (C),water temperature celsius
+Field_flux_data.csv,Air Temp (C),air temperature celsius
+Field_flux_data.csv,Wind speed (m/s),wind speed meters per second
+Field_flux_data.csv,Wind direction,wind direction
+Field_flux_data.csv,Relative humidity (%),
+Field_flux_data.csv,CH4Flux (mol/m2/d),methane flux moles per square meter per day
+Field_flux_data.csv,CO2Flux (mol/m2/d),carbon dioxide flux moles per square meter per day
+Field_flux_data.csv,CH4Flux (mg/m2/d),methane flux milligrams per square meter per day
+Field_flux_data.csv,CO2Flux (mg/m2/d),carbon dioxide flux milligrams per square meter per day
+Field_flux_data.csv,Aquatic vegetation or open water flux.,
+Field_flux_data.csv,Vegetation Type,
+Field_flux_data.csv,Chamber,
+Field_flux_data.csv,Flux location,
+Field_flux_data.csv,Quality,
+Field_flux_data.csv,Field note,field note
+VCR09168.csv,YEAR,year
+VCR09168.csv,DOY_JULIAN,day of year julian
+VCR09168.csv,CO2_FLUX,carbon dioxide flux
+VCR09168.csv,N2O_FLUX,nitrous oxide flux
+VCR09168.csv,LATENT_HEAT,latent heat
+VCR09168.csv,SENSIBLE_HEAT,sensible heat
+VCR09168.csv,FRICTION_VELOCITY,friction velocity
+VCR09168.csv,TEMPERATURE_SONIC_AIR,temperature sonic air
+VCR09168.csv,TEMPERATURE_HMP45C_AIR,temperature hmp45c air
+VCR09168.csv,AVG_WATER_VAPOR_DENSITY,average water vapor density
+VCR09168.csv,AVG_CO2_DENSITY,average carbon dioxide density
+VCR09168.csv,AVG_N2O_DENSITY,average nitrous oxide density
+VCR09168.csv,AIR_PRESSURE,air pressure
+VCR09168.csv,WIND_SPEED,wind speed
+VCR09168.csv,NET_RADIATION,net radiation
+VCR09168.csv,SOIL_HEAT_FLUX,soil heat flux
+VCR09168.csv,TEMPERATURE_MARSH,temperature marsh
+WFH_2018_19_Cores_and_Porewater.csv,Basin,basin
+WFH_2018_19_Cores_and_Porewater.csv,Site ,site
+WFH_2018_19_Cores_and_Porewater.csv,Depth,depth
+WFH_2018_19_Cores_and_Porewater.csv,% organic,percent organic
+WFH_2018_19_Cores_and_Porewater.csv,% OC,percent organic carbon
+WFH_2018_19_Cores_and_Porewater.csv,Sulfide,sulfide
+WFH_2018_19_Cores_and_Porewater.csv,SO4:Cl,sulfate chloride
+WFH_2018_19_Cores_and_Porewater.csv,Year-month,year month
+WAT-Forest-CartCreek-DO-2016.csv,Date,date
+WAT-Forest-CartCreek-DO-2016.csv,Time,time
+WAT-Forest-CartCreek-DO-2016.csv,Temp,temperature
+WAT-Forest-CartCreek-DO-2016.csv,DO_Concentration,dissolved oxygen concentration
+WAT-Forest-CartCreek-DO-2016.csv,DO_Percent_Sat,dissolved oxygen percent saturation
+WAT-Forest-CartCreek-DO-2016.csv,Flag,flag
+lower_feather_release.csv,projectDescriptionID,project description identifier
+lower_feather_release.csv,releaseID,release identifier
+lower_feather_release.csv,commonName,common name
+lower_feather_release.csv,markedRun,marked run
+lower_feather_release.csv,markedFishOrigin,marked fish origin
+lower_feather_release.csv,releaseSite,release site
+lower_feather_release.csv,releaseSubSite,release subsite
+lower_feather_release.csv,nReleased,number released
+lower_feather_release.csv,releaseTime,release time
+lower_feather_release.csv,testDays,test days
+lower_feather_release.csv,appliedMarkType,applied mark type
+lower_feather_release.csv,appliedMarkColor,applied mark color
+lower_feather_release.csv,appliedMarkPosition,applied mark position
+lower_feather_release.csv,includeAnalysis,include analysis
+cliatgrz.csv,LOCATION_NAME,location name
+cliatgrz.csv,BEGINNING_DATE,beginning date
+cliatgrz.csv,ENDING_DATE,ending date
+cliatgrz.csv,Depth (m),depth meters
+cliatgrz.csv,Type of Organism,type of organism
+cliatgrz.csv,Min ingest rate (cryp/cil/h),minimum ingestion rate cryptophytes per ciliates per hour
+cliatgrz.csv,Max ingest rate (cryp/cil/h),maximum ingestion rate cryptophytes per ciliates per hour
+cliatgrz.csv,Min cryp mass rem/day (ug C/L),minimum cryptophyte mass removed per day micrograms carbon per liter
+cliatgrz.csv,Max cryp mass rem/day (ug C/L),maximum cryptophyte mass removed per day micrograms carbon per liter
+T3_Master_All_Lengths.csv,Observer,observer
+T3_Master_All_Lengths.csv,DateCollected,date collected
+T3_Master_All_Lengths.csv,ReefCode,reef code
+T3_Master_All_Lengths.csv,Sample,sample
+T3_Master_All_Lengths.csv,TemperatureC,temperature celsius
+T3_Master_All_Lengths.csv,SalinityPPT,salinity parts per thousand
+T3_Master_All_Lengths.csv,AlgaePercent,algae percent
+T3_Master_All_Lengths.csv,ShellLength,shell length
+T3_Master_All_Lengths.csv,Species,species
+T3_Master_All_Lengths.csv,ReefName,reef name
+T3_Master_All_Lengths.csv,ReefType,reef type
+T3_Master_All_Lengths.csv,Site,site
+T3_Master_All_Lengths.csv,Acreage,acreage
+T3_Master_All_Lengths.csv,BuildDate,build date
+T3_Master_All_Lengths.csv,Latitude,latitude
+T3_Master_All_Lengths.csv,Longitude,longitude
+T3_Master_All_Lengths.csv,ReefShape,reef shape
+T3_Master_All_Lengths.csv,SuitableReference,suitable reference
+T3_Master_All_Lengths.csv,PlantingSeason,planting season
+T3_Master_All_Lengths.csv,SpeciesSize,species size
+T3_Master_All_Lengths.csv,TimeSinceConstruct,time since construction
+T3_Master_All_Lengths.csv,Restoration,restoration
+etisslig.csv,num,number
+etisslig.csv,rep,replication
+etisslig.csv,ADF,acid detergent fiber
+etisslig.csv,blk,block
+etisslig.csv,sp,species
+etisslig.csv,ipart,interaction partition
+etisslig.csv,CELL,cell
+etisslig.csv,LIG,lignin
+catch.csv,sample_id,sample identifier
+catch.csv,sample_date,sample date
+catch.csv,station_code,station code
+catch.csv,count,count
+catch.csv,r_catch,rate catch
+catch.csv,fork_length,fork length
+catch.csv,weight,weight
+catch.csv,fws_run,fish and wildlife service run
+catch.csv,interp,interpretation
+catch.csv,brood_year,brood year
+catch.csv,subsample,subsample
+catch.csv,common_name,common name
+catch.csv,life_stage,life stage
+607_Vert_invert_herbivory_cover_2012-2015.txt,Year,year
+607_Vert_invert_herbivory_cover_2012-2015.txt,Site,site
+607_Vert_invert_herbivory_cover_2012-2015.txt,Plot_trt,plot treatment
+607_Vert_invert_herbivory_cover_2012-2015.txt,Invert_Trt,invertebrate treatment
+607_Vert_invert_herbivory_cover_2012-2015.txt,Transect,transect
+607_Vert_invert_herbivory_cover_2012-2015.txt,Transect_len_cm,transect length centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Date  ,date
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_NIPH_cm,length niphaea centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_INTE_cm,length integument centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_PSMY_cm,length pseudomyia centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_ALAX_cm,length alnus alnobetula centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_LASI_cm,length larix siberica centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_POBA_cm,length populus balsamifera centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_ALTE_cm,length alnus tenuifolia centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Len_OthSalix_cm,length other salix species centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,Tot_len_cm,total length centimeters
+607_Vert_invert_herbivory_cover_2012-2015.txt,%NIPH,percentage niphargus
+607_Vert_invert_herbivory_cover_2012-2015.txt,%INTE,percentage integumentary
+607_Vert_invert_herbivory_cover_2012-2015.txt,%PSMY,percentage pseudotsuga menziesii
+607_Vert_invert_herbivory_cover_2012-2015.txt,%ALAX,percentage alnus alnobetula
+607_Vert_invert_herbivory_cover_2012-2015.txt,%LASI,percentage lasiandra
+607_Vert_invert_herbivory_cover_2012-2015.txt,%POBA,percentage populus balsamifera
+607_Vert_invert_herbivory_cover_2012-2015.txt,%ALTE,percentage alnus tenuifolia
+607_Vert_invert_herbivory_cover_2012-2015.txt,%OthSalix,percentage other salix
+607_Vert_invert_herbivory_cover_2012-2015.txt,%Tot_cover,percentage total cover
+XHan_Diadema_recruitment.csv,Location,location
+XHan_Diadema_recruitment.csv,Date,date
+XHan_Diadema_recruitment.csv,Replicate,replicate
+XHan_Diadema_recruitment.csv,Individual,individual
+XHan_Diadema_recruitment.csv,TD.mm,test diameter millimeters
+XHan_Diadema_recruitment.csv,Rubble,rubble
+XHan_Diadema_recruitment.csv,Rub.size,rubble size
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Site,site
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Transect,transect
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Transect length,transect length
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Year Started,year started
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Culvert,culvert
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Lat Creek End,latitude creek end
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Long Creek End,longitude creek end
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Lat Upland End,latitude upland end
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Long Upland End,longitude upland end
+LTE-EX-ARGILLA-RM-VEGSTN.csv,Comments,comments
+537_RS_alt_data.txt,site,site
+537_RS_alt_data.txt,land cover classification,land cover classification
+537_RS_alt_data.txt,TD_avg,tree density average
+537_RS_alt_data.txt,OD1,organic density 1
+537_RS_alt_data.txt,OD2,organic density 2
+537_RS_alt_data.txt,OD3,organic density 3
+537_RS_alt_data.txt,OD_avg,organic density average
+537_RS_alt_data.txt,OD_sd,organic density standard deviation
+537_RS_alt_data.txt,northing,northing
+537_RS_alt_data.txt,easting,easting
+537_RS_alt_data.txt,ele,elevation
+537_RS_alt_data.txt,ndvi,normalized difference vegetation index
+PPL012.csv,DataCode,data code
+PPL012.csv,RecType,record type
+PPL012.csv,RecYear,record year
+PPL012.csv,PlotID,plot identifier
+PPL012.csv,Treatment,treatment
+PPL012.csv,ANPP,aboveground net primary productivity
+mp_tallgrass_25years.csv,animal_id,animal identifier
+mp_tallgrass_25years.csv,sex,sex
+mp_tallgrass_25years.csv,reprod_cond,reproductive condition
+mp_tallgrass_25years.csv,weight,weight
+mp_tallgrass_25years.csv,recapture,recapture
+mp_tallgrass_25years.csv,trapping_session,trapping session
+HTL-EST-Clam-densitysediment.csv,Date,date
+HTL-EST-Clam-densitysediment.csv,Station_ID,station identifier
+HTL-EST-Clam-densitysediment.csv,Transect_name,transect name
+HTL-EST-Clam-densitysediment.csv,Latitude,latitude
+HTL-EST-Clam-densitysediment.csv,Longitude,longitude
+HTL-EST-Clam-densitysediment.csv,Elevation,elevation
+HTL-EST-Clam-densitysediment.csv,Pebble_%,pebble percent
+HTL-EST-Clam-densitysediment.csv,Sand_%,sand percent
+HTL-EST-Clam-densitysediment.csv,Clay_%,clay percent
+HTL-EST-Clam-densitysediment.csv,Silt_%,silt percent
+HTL-EST-Clam-densitysediment.csv,Density,density
+HTL-EST-Clam-densitysediment.csv,Clam_ID,clam identifier
+HTL-EST-Clam-densitysediment.csv,Length,length
+HTL-EST-Clam-densitysediment.csv,Weight,weight
+1997lgextnuts.csv,Date,date
+1997lgextnuts.csv,Site,site
+1997lgextnuts.csv,Community,community
+1997lgextnuts.csv,Core,core
+1997lgextnuts.csv,Horizon,horizon
+1997lgextnuts.csv,Code,code
+1997lgextnuts.csv,Core location,core location
+1997lgextnuts.csv,CAN#,canister number
+1997lgextnuts.csv,CANWT,canister weight
+1997lgextnuts.csv,WETWT,wet weight
+1997lgextnuts.csv,DRYWT,dry weight
+1997lgextnuts.csv,KCLWT,potassium chloride weight
+1997lgextnuts.csv,HCLWT,hydrochloric acid weight
+1997lgextnuts.csv,1N HCLWT,1 normal hydrochloric acid weight
+1997lgextnuts.csv,MOISTURE,moisture
+1997lgextnuts.csv,corwetwt,corrected wet weight
+1997lgextnuts.csv,BulkDens,bulk density
+1997lgextnuts.csv,Dry_Wet,dry wet
+1997lgextnuts.csv,length,length
+1997lgextnuts.csv,NH4 um/l,ammonium micromoles per liter
+1997lgextnuts.csv,NO3 um/l,nitrate micromoles per liter
+1997lgextnuts.csv,PO4 um/l,phosphate micromoles per liter
+1997lgextnuts.csv,1NPO4 um/l,first normal phosphate micromoles per liter
+1997lgextnuts.csv,NH4blank,ammonium blank
+1997lgextnuts.csv,NO3blank,nitrate blank
+1997lgextnuts.csv,PO4blank,phosphate blank
+1997lgextnuts.csv,1NPO4blk,first normal phosphate blank
+1997lgextnuts.csv,NH4 ug_g,ammonium micrograms per gram
+1997lgextnuts.csv,NO3 ug_g,nitrate micrograms per gram
+1997lgextnuts.csv,PO4 ug_g,phosphate micrograms per gram
+1997lgextnuts.csv,1NPO4 ug_g,phosphate micrograms per gram
+1997lgextnuts.csv,NH4 g/m2,ammonium grams per square meter
+1997lgextnuts.csv,NO3 g/m2,nitrate grams per square meter
+1997lgextnuts.csv,PO4 g/m2,phosphate grams per square meter
+1997lgextnuts.csv,1NPO4 g/m2,phosphate grams per square meter
+1997lgextnuts.csv,pH,ph
+1997lgextnuts.csv,N:P,nitrogen phosphorus
+1997lgextnuts.csv,COMMENTS,comments
+WAT-YSI-Urban-2017.csv,Date,date
+WAT-YSI-Urban-2017.csv,Time,time
+WAT-YSI-Urban-2017.csv,Temp,temperature
+WAT-YSI-Urban-2017.csv,HOBO_Depth,hobo depth
+WAT-YSI-Urban-2017.csv,Correction_Factor,correction factor
+WAT-YSI-Urban-2017.csv,Adj_HOBO_Depth,adjusted hobo depth
+WAT-YSI-Urban-2017.csv,Depth_Device,depth device
+WAT-YSI-Urban-2017.csv,Discharge,discharge
+WAT-YSI-Urban-2017.csv,Flag,flag
+2011_CSASN_I8In_well6_Depth.csv,River,river
+2011_CSASN_I8In_well6_Depth.csv,Well Number,well number
+2011_CSASN_I8In_well6_Depth.csv,Date,date
+2011_CSASN_I8In_well6_Depth.csv,Time,time
+2011_CSASN_I8In_well6_Depth.csv,Depth,depth
