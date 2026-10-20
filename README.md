@@ -38,7 +38,7 @@ Four queries found nothing from the original names alone (for example, `DOCin` c
 
 ## Evaluation against Columbo
 
-To measure column-name expansion against ground truth, I compared my one-shot prompt with [Columbo](https://github.com/anhaidgroup/columbo) on Columbo's own EDI benchmark (`EDI_demo`), using Columbo's own scorer (SQuAD-style exact match and F1, with its synonym and stopword lists).
+To measure column-name expansion against ground truth, I compared my prompt with [Columbo](https://github.com/anhaidgroup/columbo) on Columbo's own EDI benchmark (`EDI_demo`), using Columbo's own scorer (SQuAD-style exact match and F1, with its synonym and stopword lists).
 
 **Setup.** 20 tables drawn at random (seed 42) from `EDI_demo`: tables with 5-40 labeled columns, at most one per data package, excluding the 3 tables I had used for a smoke test. That gives 252 labeled columns, of which 96 are abbreviated (the name differs from the gold label beyond case and punctuation). Both systems see only the table name and column names and use `gpt-4o`. Each system ran twice. The table list, scripts, and all predictions are in [`experiments/columbo_eval/`](experiments/columbo_eval/).
 
@@ -139,3 +139,33 @@ What I would change if this were to grow into a catalog that other people deploy
 ## Data
 
 7 tables from the [EDI Data Portal](https://portal.edirepository.org) (North Temperate Lakes LTER and GLEON) and the [City of Madison Open Data](https://data-cityofmadison.opendata.arcgis.com/) portal. Sources, citations, and licenses are listed in [`data/SOURCES.md`](data/SOURCES.md).
+
+## References
+
+This project builds on work from the [SmartCat](https://pages.cs.wisc.edu/~anhai/projects/smartcat/) project at UW-Madison:
+
+- Ting Cai, Stephen Sheen, AnHai Doan. **Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models.** Findings of EMNLP 2025. [Code](https://github.com/anhaidgroup/columbo). The expansion rules in `catalog/rules.txt` are adapted from it, and the evaluation uses its EDI benchmark and scorer.
+- Ting Cai, Tuan Minh Phan, AnHai Doan. **Polaris: Learning to Generate Table Descriptions from Retrieval Feedback.** arXiv:2608.17171, 2026. [Code](https://github.com/anhaidgroup/polaris).
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@inproceedings{cai2025columbo,
+  title={Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models},
+  author={Cai, Ting and Sheen, Stephen and Doan, AnHai},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  year={2025}
+}
+
+@misc{polaris2026,
+  title={Polaris: Learning to Generate Table Descriptions from Retrieval Feedback},
+  author={Cai, Ting and Phan, Tuan Minh and Doan, AnHai},
+  year={2026},
+  eprint={2608.17171},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+}
+```
+
+</details>
