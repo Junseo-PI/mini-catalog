@@ -1,0 +1,721 @@
+[
+  {
+    "table_name": "daily_metabolism",
+    "description": "This table contains daily metabolism data for lakes, including lake name, date, mixing depth in meters, gross primary production, and ecosystem respiration in milligrams of oxygen per liter.",
+    "tags": [
+      "metabolism",
+      "lakes",
+      "ecology",
+      "oxygen",
+      "environment"
+    ],
+    "columns": [
+      {
+        "name": "lakeName",
+        "expanded": "Lake Name"
+      },
+      {
+        "name": "date",
+        "expanded": "Date"
+      },
+      {
+        "name": "zMix_m",
+        "expanded": "Mixing Depth (Meters)"
+      },
+      {
+        "name": "GPP_mgO2L",
+        "expanded": "Gross Primary Production (Milligrams Oxygen per Liter)"
+      },
+      {
+        "name": "ER_mgO2L",
+        "expanded": "Ecosystem Respiration (Milligrams Oxygen per Liter)"
+      }
+    ]
+  },
+  {
+    "table_name": "fish_sonar_whole_lake",
+    "description": "Sonar data from North Temperate Lakes, detailing pelagic prey characteristics including location, time, and species information.",
+    "tags": [
+      "sonar",
+      "fish",
+      "lakes",
+      "ecology",
+      "data"
+    ],
+    "columns": [
+      {
+        "name": "lakeid",
+        "expanded": "Lake Identifier"
+      },
+      {
+        "name": "year4",
+        "expanded": "Year"
+      },
+      {
+        "name": "sampledate",
+        "expanded": "Sample Date"
+      },
+      {
+        "name": "mid_sample_time",
+        "expanded": "Mid Sample Time"
+      },
+      {
+        "name": "mid_latitude",
+        "expanded": "Mid Latitude"
+      },
+      {
+        "name": "mid_longitude",
+        "expanded": "Mid Longitude"
+      },
+      {
+        "name": "sv_mean",
+        "expanded": "Sv Mean"
+      },
+      {
+        "name": "nasc",
+        "expanded": "Nautical Area Scattering Coefficient"
+      },
+      {
+        "name": "mean_height",
+        "expanded": "Mean Height"
+      },
+      {
+        "name": "mean_depth",
+        "expanded": "Mean Depth"
+      },
+      {
+        "name": "number_pings",
+        "expanded": "Number of Pings"
+      },
+      {
+        "name": "species",
+        "expanded": "Species"
+      },
+      {
+        "name": "species_ts",
+        "expanded": "Species Target Strength"
+      },
+      {
+        "name": "density",
+        "expanded": "Density"
+      }
+    ]
+  },
+  {
+    "table_name": "lake_descriptions",
+    "description": "This table contains descriptions of 58 lakes, including their geographical coordinates, elevation, depth measurements, hydrologic residence time, surface area, volume, and other related metrics.",
+    "tags": [
+      "lakes",
+      "geography",
+      "ecology",
+      "environment",
+      "hydrology"
+    ],
+    "columns": [
+      {
+        "name": "lakeName",
+        "expanded": "Lake Name"
+      },
+      {
+        "name": "lat_dd",
+        "expanded": "Latitude (Decimal Degrees)"
+      },
+      {
+        "name": "long_dd",
+        "expanded": "Longitude (Decimal Degrees)"
+      },
+      {
+        "name": "elev_m",
+        "expanded": "Elevation (Meters)"
+      },
+      {
+        "name": "max_depth_m",
+        "expanded": "Maximum Depth (Meters)"
+      },
+      {
+        "name": "mean_depth_m",
+        "expanded": "Mean Depth (Meters)"
+      },
+      {
+        "name": "HRT_years",
+        "expanded": "Hydrologic Residence Time (Years)"
+      },
+      {
+        "name": "SA_ha",
+        "expanded": "Surface Area (Hectares)"
+      },
+      {
+        "name": "volume_m3",
+        "expanded": "Volume (Cubic Meters)"
+      },
+      {
+        "name": "DO_sensor_depth_m",
+        "expanded": "Dissolved Oxygen Sensor Depth (Meters)"
+      },
+      {
+        "name": "wind_height_m",
+        "expanded": "Wind Height (Meters)"
+      },
+      {
+        "name": "watershed_area_km2",
+        "expanded": "Watershed Area (Square Kilometers)"
+      }
+    ]
+  },
+  {
+    "table_name": "modeled_data",
+    "description": "This table contains modeled data for 58 lakes, including parameters such as nutrient input, dissolved organic carbon input, mixing depth, total phosphorus, chlorophyll, gross primary production, and other ecological metrics.",
+    "tags": [
+      "ecology",
+      "lakes",
+      "metabolism",
+      "nutrients",
+      "observations"
+    ],
+    "columns": [
+      {
+        "name": "lakeName",
+        "expanded": "Lake Name"
+      },
+      {
+        "name": "Pin",
+        "expanded": "Phosphorus Input"
+      },
+      {
+        "name": "DOCin",
+        "expanded": "Dissolved Organic Carbon Input"
+      },
+      {
+        "name": "zMixHat",
+        "expanded": "Mixing Depth Estimate"
+      },
+      {
+        "name": "TPHat",
+        "expanded": "Total Phosphorus Estimate"
+      },
+      {
+        "name": "CHat",
+        "expanded": "Chlorophyll Estimate"
+      },
+      {
+        "name": "GPPHat",
+        "expanded": "Gross Primary Production Estimate"
+      },
+      {
+        "name": "AHat",
+        "expanded": "Autotrophic Respiration Estimate"
+      },
+      {
+        "name": "PHat",
+        "expanded": "Phytoplankton Estimate"
+      }
+    ]
+  },
+  {
+    "table_name": "nwlr_survey1",
+    "description": "This table contains data from the Northern Wisconsin Lake Resident Survey 2005, including information about lakes, resident activities, environmental concerns, and demographic details.",
+    "tags": [
+      "survey",
+      "lakes",
+      "residents",
+      "environment",
+      "demographics"
+    ],
+    "columns": [
+      {
+        "name": "lake",
+        "expanded": "Lake"
+      },
+      {
+        "name": "year",
+        "expanded": "Year"
+      },
+      {
+        "name": "join_own",
+        "expanded": "Join Ownership"
+      },
+      {
+        "name": "lau_boat",
+        "expanded": "Launch Boat"
+      },
+      {
+        "name": "other_lau_boat",
+        "expanded": "Other Launch Boat"
+      },
+      {
+        "name": "zebra",
+        "expanded": "Zebra Mussels"
+      },
+      {
+        "name": "rusty",
+        "expanded": "Rusty Crayfish"
+      },
+      {
+        "name": "smelt",
+        "expanded": "Smelt"
+      },
+      {
+        "name": "milfoil",
+        "expanded": "Milfoil"
+      },
+      {
+        "name": "flea",
+        "expanded": "Flea"
+      },
+      {
+        "name": "loosestr",
+        "expanded": "Loosestrife"
+      },
+      {
+        "name": "assoc",
+        "expanded": "Association"
+      },
+      {
+        "name": "min_fron",
+        "expanded": "Minimum Frontage"
+      },
+      {
+        "name": "prim_res",
+        "expanded": "Primary Residence"
+      },
+      {
+        "name": "days_no_prim",
+        "expanded": "Days Not Primary"
+      },
+      {
+        "name": "gues_no_prim",
+        "expanded": "Guests Not Primary"
+      },
+      {
+        "name": "rent_no_prim",
+        "expanded": "Rent Not Primary"
+      },
+      {
+        "name": "fishing",
+        "expanded": "Fishing"
+      },
+      {
+        "name": "boating",
+        "expanded": "Boating"
+      },
+      {
+        "name": "wat_ski",
+        "expanded": "Water Ski"
+      },
+      {
+        "name": "can_kay_row",
+        "expanded": "Canoe Kayak Row"
+      },
+      {
+        "name": "sail",
+        "expanded": "Sail"
+      },
+      {
+        "name": "jet_ski",
+        "expanded": "Jet Ski"
+      },
+      {
+        "name": "swim",
+        "expanded": "Swim"
+      },
+      {
+        "name": "ide_size",
+        "expanded": "Ideal Size"
+      },
+      {
+        "name": "ide_com",
+        "expanded": "Ideal Community"
+      },
+      {
+        "name": "ide_dev",
+        "expanded": "Ideal Development"
+      },
+      {
+        "name": "ide_pub",
+        "expanded": "Ideal Public"
+      },
+      {
+        "name": "bigger",
+        "expanded": "Bigger"
+      },
+      {
+        "name": "smaller",
+        "expanded": "Smaller"
+      },
+      {
+        "name": "qual_fish",
+        "expanded": "Quality Fishing"
+      },
+      {
+        "name": "wat_clar",
+        "expanded": "Water Clarity"
+      },
+      {
+        "name": "clos_com",
+        "expanded": "Closer Community"
+      },
+      {
+        "name": "fur_com",
+        "expanded": "Further Community"
+      },
+      {
+        "name": "less_dev",
+        "expanded": "Less Development"
+      },
+      {
+        "name": "mor_dev",
+        "expanded": "More Development"
+      },
+      {
+        "name": "road_acc",
+        "expanded": "Road Access"
+      },
+      {
+        "name": "no_pubacc",
+        "expanded": "No Public Access"
+      },
+      {
+        "name": "add_pubacc",
+        "expanded": "Additional Public Access"
+      },
+      {
+        "name": "quieter",
+        "expanded": "Quieter"
+      },
+      {
+        "name": "mor_pub",
+        "expanded": "More Public"
+      },
+      {
+        "name": "less_pub",
+        "expanded": "Less Public"
+      },
+      {
+        "name": "dis_pub_land",
+        "expanded": "Dislike Public Land"
+      },
+      {
+        "name": "dev_stric",
+        "expanded": "Development Stricter"
+      },
+      {
+        "name": "dev_easier",
+        "expanded": "Development Easier"
+      },
+      {
+        "name": "weedy",
+        "expanded": "Weedy"
+      },
+      {
+        "name": "Pref_lake",
+        "expanded": "Preferred Lake"
+      },
+      {
+        "name": "lake1",
+        "expanded": "Lake 1"
+      },
+      {
+        "name": "lake2",
+        "expanded": "Lake 2"
+      },
+      {
+        "name": "lake3",
+        "expanded": "Lake 3"
+      },
+      {
+        "name": "nolak1",
+        "expanded": "No Lake 1"
+      },
+      {
+        "name": "nolak2",
+        "expanded": "No Lake 2"
+      },
+      {
+        "name": "nolak3",
+        "expanded": "No Lake 3"
+      },
+      {
+        "name": "Vnew_res",
+        "expanded": "Very New Residence"
+      },
+      {
+        "name": "XVnew_res",
+        "expanded": "Extremely Very New Residence"
+      },
+      {
+        "name": "subdiv",
+        "expanded": "Subdivision"
+      },
+      {
+        "name": "sell_5",
+        "expanded": "Sell 5 Years"
+      },
+      {
+        "name": "sell_10",
+        "expanded": "Sell 10 Years"
+      },
+      {
+        "name": "inh_pur",
+        "expanded": "Inherit Purchase"
+      },
+      {
+        "name": "time_mar",
+        "expanded": "Time Married"
+      },
+      {
+        "name": "res_laksho",
+        "expanded": "Residence Lake Shore"
+      },
+      {
+        "name": "Vilas",
+        "expanded": "Vilas"
+      },
+      {
+        "name": "regone",
+        "expanded": "Region One"
+      },
+      {
+        "name": "regtwo",
+        "expanded": "Region Two"
+      },
+      {
+        "name": "regthre",
+        "expanded": "Region Three"
+      },
+      {
+        "name": "regfour",
+        "expanded": "Region Four"
+      },
+      {
+        "name": "exper",
+        "expanded": "Experience"
+      },
+      {
+        "name": "know_wq",
+        "expanded": "Knowledge Water Quality"
+      },
+      {
+        "name": "know_fq",
+        "expanded": "Knowledge Fishing Quality"
+      },
+      {
+        "name": "dev_res",
+        "expanded": "Development Residence"
+      },
+      {
+        "name": "gender",
+        "expanded": "Gender"
+      },
+      {
+        "name": "age",
+        "expanded": "Age"
+      },
+      {
+        "name": "mem_hh",
+        "expanded": "Members Household"
+      },
+      {
+        "name": "children",
+        "expanded": "Children"
+      },
+      {
+        "name": "educat",
+        "expanded": "Education"
+      },
+      {
+        "name": "inc",
+        "expanded": "Income"
+      },
+      {
+        "name": "value",
+        "expanded": "Value"
+      },
+      {
+        "name": "survey_num",
+        "expanded": "Survey Number"
+      },
+      {
+        "name": "comments",
+        "expanded": "Comments"
+      },
+      {
+        "name": "survey_fm",
+        "expanded": "Survey Form"
+      }
+    ]
+  },
+  {
+    "table_name": "onstreet_ada_parking_spaces",
+    "description": "This table contains information about on-street ADA parking spaces, including their location, time limits, enforcement details, and status.",
+    "tags": [
+      "parking",
+      "ADA",
+      "on-street",
+      "accessibility",
+      "transportation"
+    ],
+    "columns": [
+      {
+        "name": "X",
+        "expanded": "X Coordinate"
+      },
+      {
+        "name": "Y",
+        "expanded": "Y Coordinate"
+      },
+      {
+        "name": "OBJECTID",
+        "expanded": "Object Identifier"
+      },
+      {
+        "name": "Time_Limit_Hr",
+        "expanded": "Time Limit Hours"
+      },
+      {
+        "name": "Time_Limit_Min",
+        "expanded": "Time Limit Minutes"
+      },
+      {
+        "name": "Enforced",
+        "expanded": "Enforced"
+      },
+      {
+        "name": "Block_Nbr",
+        "expanded": "Block Number"
+      },
+      {
+        "name": "St_Pre_Dir",
+        "expanded": "Street Prefix Direction"
+      },
+      {
+        "name": "St_Name",
+        "expanded": "Street Name"
+      },
+      {
+        "name": "St_Name_Suf",
+        "expanded": "Street Name Suffix"
+      },
+      {
+        "name": "Side_Of_St",
+        "expanded": "Side Of Street"
+      },
+      {
+        "name": "Symbol_Rotation",
+        "expanded": "Symbol Rotation"
+      },
+      {
+        "name": "Status",
+        "expanded": "Status"
+      },
+      {
+        "name": "SpaceLength_Ft",
+        "expanded": "Space Length Feet"
+      },
+      {
+        "name": "Restriction",
+        "expanded": "Restriction"
+      },
+      {
+        "name": "CWasset_ID",
+        "expanded": "City Works Asset Identifier"
+      },
+      {
+        "name": "Collect_Route",
+        "expanded": "Collection Route"
+      },
+      {
+        "name": "DateRemoved",
+        "expanded": "Date Removed"
+      },
+      {
+        "name": "SpaceID",
+        "expanded": "Space Identifier"
+      },
+      {
+        "name": "SpaceName",
+        "expanded": "Space Name"
+      },
+      {
+        "name": "created_user",
+        "expanded": "Created User"
+      },
+      {
+        "name": "created_date",
+        "expanded": "Created Date"
+      },
+      {
+        "name": "last_edited_user",
+        "expanded": "Last Edited User"
+      },
+      {
+        "name": "last_edited_date",
+        "expanded": "Last Edited Date"
+      }
+    ]
+  },
+  {
+    "table_name": "urban_forestry_street_trees",
+    "description": "This table contains data on urban street trees, including their location, species, inspection dates, and physical characteristics.",
+    "tags": [
+      "urban forestry",
+      "street trees",
+      "environment",
+      "botany",
+      "inspection"
+    ],
+    "columns": [
+      {
+        "name": "X",
+        "expanded": "X Coordinate"
+      },
+      {
+        "name": "Y",
+        "expanded": "Y Coordinate"
+      },
+      {
+        "name": "OBJECTID",
+        "expanded": "Object Identifier"
+      },
+      {
+        "name": "INSPECT_DT",
+        "expanded": "Inspection Date"
+      },
+      {
+        "name": "INV_DATE",
+        "expanded": "Inventory Date"
+      },
+      {
+        "name": "SPP_COM",
+        "expanded": "Species Common Name"
+      },
+      {
+        "name": "SPP_BOT",
+        "expanded": "Species Botanical Name"
+      },
+      {
+        "name": "GSSIZE",
+        "expanded": "Growing Space Size"
+      },
+      {
+        "name": "DIAMETER",
+        "expanded": "Diameter"
+      },
+      {
+        "name": "STATUS",
+        "expanded": "Status"
+      },
+      {
+        "name": "TREEGUARD",
+        "expanded": "Tree Guard"
+      },
+      {
+        "name": "GRATE_SPP",
+        "expanded": "Grate Specification"
+      },
+      {
+        "name": "site_id",
+        "expanded": "Site Identifier"
+      }
+    ]
+  }
+]
